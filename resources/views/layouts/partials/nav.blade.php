@@ -28,8 +28,7 @@
                 <!-- Authentication Links -->
                 <?php $mark = (preg_match('/\?/', url()->current())) ? '&' : '?';?>
                 <li><a href="{{ url(url()->current() . $mark . 'lang=en') }}">en</a></li>
-                <li><a href="{{ url(url()->current() . $mark . 'lang=id') }}">id</a></li>
-                <li><a href="{{ url(url()->current() . $mark . 'lang=ur') }}">ur</a></li>
+                <li><a href="{{ url(url()->current() . $mark . 'lang=zh') }}">中文</a></li>
                 @if (Auth::guest())
                     <li><a href="{{ route('login') }}">Login</a></li>
                     <li><a href="{{ route('register') }}">Register</a></li>
@@ -49,7 +48,7 @@
                                 <a href="{{ route('logout') }}"
                                     onclick="event.preventDefault();
                                              document.getElementById('logout-form').submit();">
-                                    Logout
+                                    {{ __('auth.logout') }}
                                 </a>
 
                                 <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
