@@ -1,0 +1,45 @@
+<?php
+
+return [
+    // Labels
+    'my_profile'        => '我的资料',
+    'search'            => '查找',
+    'unknown'           => '未知',
+    'male'              => '男',
+    'female'            => '女',
+    'male_code'         => 'M',
+    'female_code'       => 'F',
+    'family_chart'      => '家庭图表',
+    'family_tree'       => '家谱',
+    'child_count'       => '直系后代数量',
+    'grand_child_count' => '孙辈数量',
+    'user_found'        => '<strong>:total</strong> 发现关键字 : <strong>:keyword</strong>',
+    'search_your_family' => '找到你的家庭',
+    'search_your_family_placeholder' => '请输入您的名称/昵称... 点击查找',
+    'example'           => '例.',
+    'address'           => '地址',
+    'contact'           => '联系人',
+    'city'              => '城市',
+    'phone'             => '手机号',
+    'login_account'     => '登陆账户',
+    'childs_were_not_recorded' => '孩子没有被记录',
+
+    // Actions
+    'edit'              => '编辑',
+    'update'            => '修改',
+    'show_profile'      => '展示资料',
+    'show_family_chart' => '展示家庭图表',
+    'show_family_tree'  => '展示家谱',
+    'show_marriages'    => '展示婚姻关系',
+    'enter_new_name'    => '输入新名称...',
+    'select_from_existing_males'   => '从现有男性中选择',
+    'select_from_existing_females' => '从现有女性中选择',
+    'select_from_existing_couples' => '从现有夫妻中选择',
+    'restore'           => '恢复',
+    'download'          => '下载',
+    'delete'            => '删除',
+    'cancel'            => '取消',
+
+    'open_in_google_map' => '在谷歌地图中打开',
+    'data_not_available' => '数据不可用。',
+];
